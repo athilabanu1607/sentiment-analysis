@@ -1,0 +1,92 @@
+**ID** | **Text**                                   | **Sentiment** |
+|--------|--------------------------------------------|--------------|
+| 1      | "I love this product! Works perfectly."    | Positive     |
+| 2      | "Terrible service, very disappointed."     | Negative     |
+| 3      | "The weather is okay today."               | Neutral      |
+| 4      | "This movie was amazing!"                  | Positive     |
+| 5      | "Worst experience ever."                   | Negative     |
+| 6      | "The meeting was average."                 | Neutral      |
+| 7      | "Great customer support!"                  | Positive     |
+| 8      | "The food was too salty."                  | Negative     |
+| 9      | "The package arrived on time."             | Neutral      |
+| 10     | "Highly recommended!"                      | Positive     |
+| 11     | "Broken item received, very upset."        | Negative     |
+| 12     | "The news was neither good nor bad."       | Neutral      |
+| 13     | "Fantastic performance!"                   | Positive     |
+| 14     | "The app keeps crashing."                  | Negative     |
+| 15     | "The room temperature was normal."         | Neutral      |
+| 16     | "Excellent job, well done!"                | Positive     |
+| 17     | "The delivery was late."                   | Negative     |
+| 18     | "The book was just fine."                  | Neutral      |
+| 19     | "I’m so happy with the results!"           | Positive     |
+| 20     | "The shoes didn’t fit properly."           | Negative     |
+| 21     | "The event was neither fun nor boring."    | Neutral      |
+| 22     | "Perfect solution for my needs!"           | Positive     |
+| 23     | "The battery life is poor."                | Negative     |
+| 24     | "The presentation was decent."             | Neutral      |
+| 25     | "This restaurant is the best!"             | Positive     |
+| 26     | "The Wi-Fi connection is very slow."       | Negative     |
+| 27     | "The meeting was as expected."             | Neutral      |
+| 28     | "I’m thrilled with the purchase!"          | Positive     |
+| 29     | "The product arrived damaged."             | Negative     |
+| 30     | "The traffic was usual today."             | Neutral      |
+| 31     | "The concert was mind-blowing!"            | Positive     |
+| 32     | "The hotel room was dirty and smelly."     | Negative     |
+| 33     | "The meeting lasted 30 minutes as planned."| Neutral      |
+| 34     | "This app makes life so much easier!"      | Positive     |
+| 35     | "The flight was delayed for 5 hours."      | Negative     |
+| 36     | "The report was neither impressive nor bad."| Neutral      |
+| 37     | "The team did an outstanding job!"         | Positive     |
+| 38     | "The coffee was too cold to drink."        | Negative     |
+| 39     | "The store was neither crowded nor empty." | Neutral      |
+| 40     | "I’m extremely satisfied with my purchase!"| Positive     |
+| 41     | "The service was rude and unprofessional." | Negative     |
+| 42     | "The movie had a predictable storyline."   | Neutral      |
+| 43     | "This phone has amazing battery life!"     | Positive     |
+| 44     | "The food arrived cold and tasteless."     | Negative     |
+| 45     | "The lecture was informative but too long."| Neutral      |
+| 46     | "The vacation was absolutely perfect!"     | Positive     |
+| 47     | "The website crashed during checkout."     | Negative     |
+| 48     | "The dress fits just fine, nothing special."| Neutral      |
+| 49     | "The staff was incredibly helpful!"        | Positive     |
+| 50     | "The headphones stopped working after a week."| Negative  |
+| 51     | "The traffic was normal for this time."    | Neutral      |
+| 52     | "The cake was delicious and beautifully decorated!"| Positive |
+| 53     | "The room had no AC, it was unbearable."   | Negative     |
+| 54     | "The presentation was average, not too engaging."| Neutral |
+| 55     | "This book is a masterpiece!"              | Positive     |
+| 56     | "The delivery guy was rude and impatient." | Negative     |
+| 57     | "The event was neither exciting nor dull." | Neutral      |
+| 58     | "The gym equipment is top-notch!"          | Positive     |
+| 59     | "The order was missing half the items."    | Negative     |
+| 60     | "The weather today was neither hot nor cold."| Neutral    |
+| 61 | "The new update ruined the app—it’s so slow now!" | **Negative** |  
+| 62 | "This café has the best latte I’ve ever tasted!" | **Positive** |  
+| 63 | "The meeting was rescheduled to 3 PM." | **Neutral** |  
+| 64 | "The customer support agent was rude and unhelpful." | **Negative** |  
+| 65 | "The sunset at the beach was breathtaking!" | **Positive** |  
+| 66 | "The printer is out of paper." | **Neutral** |  
+| 67 | "I’m obsessed with this new song—it’s addictive!" | **Positive** |  
+| 68 | "The hotel charged me extra for no reason!" | **Negative** |  
+| 69 | "The document was submitted on time." | **Neutral** |  
+| 70 | "The shoes are comfy but overpriced." | **Mixed** |  
+| 71 | "The park was clean and peaceful, perfect for walks." | **Positive** |  
+| 72 | "The Wi-Fi here is useless—can’t load anything!" | **Negative** |  
+| 73 | "The flight departed at 9 AM as scheduled." | **Neutral** |  
+| 74 | "The laptop is fast, but the battery drains too quickly." | **Mixed** |  
+| 75 | "The therapist was kind and really listened to me." | **Positive** |  
+| 76 | "The restaurant messed up my order twice!" | **Negative** |  
+| 77 | "The report was 10 pages long." | **Neutral** |  
+| 78 | "The movie had great visuals, but the plot was weak." | **Mixed** |  
+| 79 | "My dog’s new toy keeps him entertained for hours!" | **Positive** |  
+| 80 | "The taxi driver took the longest route on purpose." | **Negative** |  
+| 81 | "The conference room was booked for 2 hours." | **Neutral** |  
+| 82 | "The phone’s camera is amazing, though it overheats." | **Mixed** |  
+| 83 | "The garden is blooming beautifully this spring!" | **Positive** |  
+| 84 | "The elevator broke down—I had to climb 15 floors!" | **Negative** |  
+| 85 | "The contract was signed electronically." | **Neutral** |  
+| 86 | "The pizza was delicious, but the delivery took forever." | **Mixed** |  
+| 87 | "My new haircut makes me feel so confident!" | **Positive** |  
+| 88 | "The concert tickets were ridiculously expensive." | **Negative** |  
+| 89 | "The train arrives at platform 4." | **Neutral** |  
+| 90 | "The game graphics are stunning, but the controls are clunky." | **Mixed** |
