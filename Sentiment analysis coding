@@ -1,0 +1,82 @@
+# install required libraries
+
+Pip install gradio transformers
+
+# import required libraries
+
+Import gradio as gr
+
+From transformers import pipeline
+
+# load the sentimental analysis model
+
+Classifier = pipeline(“sentiment-analysis”)
+
+#define the sentimental analysis function
+
+Def classify_sentiment(text):
+
+ Result=classifier(text)[0]
+
+ Label = result[‘label’]
+
+ If label == “POSITIVE”:
+
+ Sentiment=”positive”
+
+ Elif label == “NEGATIVE”:
+
+ Sentiment=”negative”
+
+ Else:
+
+ Sentiment=”neutral”
+
+ Return f”Sentiment: {sentiment}”
+
+# create the grodio interface
+
+Import gradio as gr
+
+#create a stylish gradio interface
+
+Interface = gr.Interface(
+
+ Fn=classify_sentiment,
+Inputs= gr.Textbox(
+
+ Lines=3,
+
+ Placeholder=”Type yout text here…”,
+
+ Label=”Enter your text”,
+
+ Interactive=True # Corrected the typo from ‘interacitve’ to ‘interactive’
+
+ ),
+
+ Outputs=gr.Textbox(
+
+ Label=”Sentimet Result”,
+
+ Interactive=False
+
+ ),
+
+ Title=”sentiment analysis”,
+
+ Description=”Enter any text,and our AI will instantly analyse its sentiment as 
+
+**positive**,**negative** or **neutral**”,
+
+ Theme=”soft”,
+
+ Allow_flagging=”never”,
+
+ Live=True
+
+)
+
+#launch the interface
+
+Interface.launch(share=True)
